@@ -1,4 +1,13 @@
 HealthApp::Application.routes.draw do
+<<<<<<< HEAD
+=======
+  resources :microposts
+  resources :users
+
+match 'products/:id' => 'users_controller#index'
+match 'products/:id' => 'microposts_controller#index'
+
+>>>>>>> 08f3b2b56370c0b6bf16c306d83bdadd94943600
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

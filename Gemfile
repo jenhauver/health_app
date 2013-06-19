@@ -2,8 +2,17 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.13'
 
+<<<<<<< HEAD
 group :development do
   gem 'sqlite3', '1.3.5'
+=======
+# Bundle edge Rails instead:
+# gem 'rails', :git => 'git://github.com/rails/rails.git'
+
+group :development do
+gem 'sqlite3' , '1.3.5'
+gem 'rspec-rails', '2.11.0'
+>>>>>>> 08f3b2b56370c0b6bf16c306d83bdadd94943600
 end
 
 
@@ -13,6 +22,7 @@ group :assets do
   gem 'sass-rails',   '3.2.5'
   gem 'coffee-rails', '3.2.2'
 
+<<<<<<< HEAD
   gem 'uglifier', '1.2.3'
 end
 
@@ -20,6 +30,22 @@ gem 'jquery-rails', '2.0.2'
 
 group :production do
   gem 'pg', '0.12.2'
+=======
+  # See https://github.com/sstephenson/execjs#readme for more supported runtimes
+  # gem 'therubyracer', :platforms => :ruby
+
+  gem 'uglifier', '1.2.3'
+end
+
+gem 'jquery-rails' , '2.0.2'
+
+group :test do
+	gem 'capybara' , '1.1.2'
+end
+
+group :production do
+  gem 'pg' , '0.12.2'
+>>>>>>> 08f3b2b56370c0b6bf16c306d83bdadd94943600
 end
 
 # To use ActiveModel has_secure_password
@@ -35,4 +61,8 @@ end
 # gem 'capistrano'
 
 # To use debugger
+<<<<<<< HEAD
 # gem 'ruby-debug'
+=======
+# gem 'debugger'
+>>>>>>> 08f3b2b56370c0b6bf16c306d83bdadd94943600
