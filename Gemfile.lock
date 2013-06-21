@@ -30,18 +30,6 @@ GEM
       multi_json (~> 1.0)
     arel (3.0.2)
     builder (3.0.4)
-<<<<<<< HEAD
-=======
-    capybara (1.1.2)
-      mime-types (>= 1.16)
-      nokogiri (>= 1.3.3)
-      rack (>= 1.0.0)
-      rack-test (>= 0.5.4)
-      selenium-webdriver (~> 2.0)
-      xpath (~> 0.1.4)
-    childprocess (0.3.9)
-      ffi (~> 1.0, >= 1.0.11)
->>>>>>> 08f3b2b56370c0b6bf16c306d83bdadd94943600
     coffee-rails (3.2.2)
       coffee-script (>= 2.2.0)
       railties (~> 3.2.0)
@@ -49,17 +37,9 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.6.2)
-<<<<<<< HEAD
     erubis (2.7.0)
     execjs (1.4.0)
       multi_json (~> 1.0)
-=======
-    diff-lcs (1.1.3)
-    erubis (2.7.0)
-    execjs (1.4.0)
-      multi_json (~> 1.0)
-    ffi (1.9.0-x86-mingw32)
->>>>>>> 08f3b2b56370c0b6bf16c306d83bdadd94943600
     hike (1.2.3)
     i18n (0.6.1)
     journey (1.0.4)
@@ -71,16 +51,8 @@ GEM
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     mime-types (1.23)
-<<<<<<< HEAD
     multi_json (1.7.7)
     pg (0.12.2)
-=======
-    mini_portile (0.5.0)
-    multi_json (1.7.6)
-    nokogiri (1.6.0-x86-mingw32)
-      mini_portile (~> 0.5.0)
-    pg (0.12.2-x86-mingw32)
->>>>>>> 08f3b2b56370c0b6bf16c306d83bdadd94943600
     polyglot (0.3.3)
     rack (1.4.5)
     rack-cache (1.2)
@@ -104,49 +76,20 @@ GEM
       rake (>= 0.8.7)
       rdoc (~> 3.4)
       thor (>= 0.14.6, < 2.0)
-    rake (10.0.4)
+    rake (10.1.0)
     rdoc (3.12.2)
       json (~> 1.4)
-<<<<<<< HEAD
-=======
-    rspec (2.11.0)
-      rspec-core (~> 2.11.0)
-      rspec-expectations (~> 2.11.0)
-      rspec-mocks (~> 2.11.0)
-    rspec-core (2.11.1)
-    rspec-expectations (2.11.3)
-      diff-lcs (~> 1.1.3)
-    rspec-mocks (2.11.3)
-    rspec-rails (2.11.0)
-      actionpack (>= 3.0)
-      activesupport (>= 3.0)
-      railties (>= 3.0)
-      rspec (~> 2.11.0)
-    rubyzip (0.9.9)
->>>>>>> 08f3b2b56370c0b6bf16c306d83bdadd94943600
     sass (3.2.9)
     sass-rails (3.2.5)
       railties (~> 3.2.0)
       sass (>= 3.1.10)
       tilt (~> 1.3)
-<<<<<<< HEAD
-=======
-    selenium-webdriver (2.33.0)
-      childprocess (>= 0.2.5)
-      multi_json (~> 1.0)
-      rubyzip
-      websocket (~> 1.0.4)
->>>>>>> 08f3b2b56370c0b6bf16c306d83bdadd94943600
     sprockets (2.2.2)
       hike (~> 1.2)
       multi_json (~> 1.0)
       rack (~> 1.0)
       tilt (~> 1.1, != 1.3.0)
-<<<<<<< HEAD
     sqlite3 (1.3.5)
-=======
-    sqlite3 (1.3.5-x86-mingw32)
->>>>>>> 08f3b2b56370c0b6bf16c306d83bdadd94943600
     thor (0.18.1)
     tilt (1.4.1)
     treetop (1.4.14)
@@ -156,31 +99,15 @@ GEM
     uglifier (1.2.3)
       execjs (>= 0.3.0)
       multi_json (>= 1.0.2)
-<<<<<<< HEAD
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-=======
-    websocket (1.0.7)
-    xpath (0.1.4)
-      nokogiri (~> 1.3)
-
-PLATFORMS
-  x86-mingw32
-
-DEPENDENCIES
-  capybara (= 1.1.2)
->>>>>>> 08f3b2b56370c0b6bf16c306d83bdadd94943600
   coffee-rails (= 3.2.2)
   jquery-rails (= 2.0.2)
   pg (= 0.12.2)
   rails (= 3.2.13)
-<<<<<<< HEAD
-=======
-  rspec-rails (= 2.11.0)
->>>>>>> 08f3b2b56370c0b6bf16c306d83bdadd94943600
   sass-rails (= 3.2.5)
   sqlite3 (= 1.3.5)
   uglifier (= 1.2.3)
