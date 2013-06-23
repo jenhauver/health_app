@@ -4,8 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-<<<<<<< HEAD
-HealthApp::Application.config.secret_token = '531e203c073d0aa519f883c0c27244393610bb8e05657e0bb84aeff8f13b31e6dad6ac17acb552891abe70e42624ba1a6b351a876272914bceaed75d72efecf5'
-=======
-HealthApp::Application.config.secret_token = '9e510d9c99fe54e4d9b2a8a60ee80cb5959a79942afc994ccb7ed4979aa0de1d0a66786907f7d5a6992667dc15f10d88b68f330d4c341a88f9d0fcdb2c809625'
->>>>>>> 08f3b2b56370c0b6bf16c306d83bdadd94943600
+HealthApp::Application.config.secret_token = '158da6a64ec411397b6eafd1a29ca0e1e08e852f4b395dc0454af95f8492bc31c86fd40026d43b9608e7e6270689cca2f573ff6895eabc8bd146d579f0c5b401'
