@@ -3,11 +3,6 @@ HealthApp::Application.routes.draw do
 
   get "static_pages/help"
 
-  resources :microposts
-
-
-  resources :users
-
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
